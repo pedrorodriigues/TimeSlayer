@@ -1,0 +1,1753 @@
+fileFormatVersion: 2
+guid: 88b52dea73570684497e192c17ac19ca
+timeCreated: 1525115721
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pluto_0
+    21300002: pluto_1
+    21300004: pluto_2
+    21300006: pluto_3
+    21300008: pluto_4
+    21300010: pluto_5
+    21300012: pluto_6
+    21300014: pluto_7
+    21300016: pluto_8
+    21300018: pluto_9
+    21300020: pluto_10
+    21300022: pluto_11
+    21300024: pluto_12
+    21300026: pluto_13
+    21300028: pluto_14
+    21300030: pluto_15
+    21300032: pluto_16
+    21300034: pluto_17
+    21300036: pluto_18
+    21300038: pluto_19
+    21300040: pluto_20
+    21300042: pluto_21
+    21300044: pluto_22
+    21300046: pluto_23
+    21300048: pluto_24
+    21300050: pluto_25
+    21300052: pluto_26
+    21300054: pluto_27
+    21300056: pluto_28
+    21300058: pluto_29
+    21300060: pluto_30
+    21300062: pluto_31
+    21300064: pluto_32
+    21300066: pluto_33
+    21300068: pluto_34
+    21300070: pluto_35
+    21300072: pluto_36
+    21300074: pluto_37
+    21300076: pluto_38
+    21300078: pluto_39
+    21300080: pluto_40
+    21300082: pluto_41
+    21300084: pluto_42
+    21300086: pluto_43
+    21300088: pluto_44
+    21300090: pluto_45
+    21300092: pluto_46
+    21300094: pluto_47
+    21300096: pluto_48
+    21300098: pluto_49
+    21300100: pluto_50
+    21300102: pluto_51
+    21300104: pluto_52
+    21300106: pluto_53
+    21300108: pluto_54
+    21300110: pluto_55
+    21300112: pluto_56
+    21300114: pluto_57
+    21300116: pluto_58
+    21300118: pluto_59
+    21300120: pluto_60
+    21300122: pluto_61
+    21300124: pluto_62
+    21300126: pluto_63
+    21300128: pluto_64
+    21300130: pluto_65
+    21300132: pluto_66
+    21300134: pluto_67
+    21300136: pluto_68
+    21300138: pluto_69
+    21300140: pluto_70
+    21300142: pluto_71
+    21300144: pluto_72
+    21300146: pluto_73
+    21300148: pluto_74
+    21300150: pluto_75
+    21300152: pluto_76
+    21300154: pluto_77
+    21300156: pluto_78
+    21300158: pluto_79
+    21300160: pluto_80
+    21300162: pluto_81
+    21300164: pluto_82
+    21300166: pluto_83
+    21300168: pluto_84
+    21300170: pluto_85
+    21300172: pluto_86
+    21300174: pluto_87
+    21300176: pluto_88
+    21300178: pluto_89
+    21300180: pluto_90
+    21300182: pluto_91
+    21300184: pluto_92
+    21300186: pluto_93
+    21300188: pluto_94
+    21300190: pluto_95
+    21300192: pluto_96
+    21300194: pluto_97
+    21300196: pluto_98
+    21300198: pluto_99
+    21300200: pluto_100
+    21300202: pluto_101
+    21300204: pluto_102
+    21300206: pluto_103
+    21300208: pluto_104
+    21300210: pluto_105
+    21300212: pluto_106
+    21300214: pluto_107
+    21300216: pluto_108
+    21300218: pluto_109
+    21300220: pluto_110
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pluto_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 976
+        width: 71
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 976
+        width: 64
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 976
+        width: 64
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 976
+        width: 79
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 976
+        width: 88
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_5
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 976
+        width: 87
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_6
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 974
+        width: 122
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_7
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 974
+        width: 137
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_8
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 974
+        width: 159
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_9
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1034
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_10
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1010
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 823
+        width: 122
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 823
+        width: 100
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_13
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 823
+        width: 106
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_14
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 823
+        width: 104
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_15
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 823
+        width: 106
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 823
+        width: 100
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_17
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 855
+        width: 43
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_18
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 855
+        width: 43
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_19
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 867
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 661
+        width: 93
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_21
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 661
+        width: 77
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 661
+        width: 68
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_23
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 661
+        width: 140
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_24
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 661
+        width: 142
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_25
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 661
+        width: 140
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_26
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 661
+        width: 140
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_27
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 661
+        width: 142
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_28
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 661
+        width: 140
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 493
+        width: 109
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_30
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 493
+        width: 136
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_31
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 493
+        width: 114
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_32
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 493
+        width: 98
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_33
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 493
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_34
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 493
+        width: 95
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_35
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 493
+        width: 95
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_36
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 493
+        width: 101
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_37
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 493
+        width: 99
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_38
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 493
+        width: 91
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_39
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 543
+        width: 16
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_40
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 539
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_41
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 538
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_42
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 518
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_43
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 519
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_44
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 519
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 336
+        width: 101
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_46
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 335
+        width: 80
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_47
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 335
+        width: 78
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_48
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 335
+        width: 78
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_49
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 335
+        width: 78
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_50
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 335
+        width: 78
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_51
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 335
+        width: 78
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_52
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 335
+        width: 78
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_53
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 419
+        width: 67
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_54
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 432
+        width: 32
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_55
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 432
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_56
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 432
+        width: 42
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_57
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 432
+        width: 56
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_58
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 445
+        width: 28
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_59
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 432
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_60
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 445
+        width: 28
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_61
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 432
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_62
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 432
+        width: 14
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_63
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 432
+        width: 12
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_64
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 432
+        width: 8
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_65
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 432
+        width: 4
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_66
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 394
+        width: 18
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_67
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 417
+        width: 32
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_68
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 415
+        width: 31
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_69
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 413
+        width: 30
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_70
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 409
+        width: 28
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_71
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 407
+        width: 28
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_72
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 406
+        width: 27
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_73
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 405
+        width: 27
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_74
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 402
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_75
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 401
+        width: 24
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_76
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 399
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_77
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 398
+        width: 20
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_78
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 397
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_79
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 393
+        width: 12
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_80
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 392
+        width: 9
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_81
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 351
+        width: 20
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_82
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_83
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 347
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_84
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 347
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_85
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 347
+        width: 28
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_86
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 347
+        width: 28
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_87
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 348
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_88
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 351
+        width: 20
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_89
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 338
+        width: 49
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_90
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 345
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_91
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 365
+        width: 32
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_92
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 353
+        width: 32
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_93
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 182
+        width: 102
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_94
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 182
+        width: 101
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_95
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 182
+        width: 102
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_96
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 182
+        width: 102
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_97
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 182
+        width: 102
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_98
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 182
+        width: 102
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_99
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 162
+        width: 383
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_100
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 82
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_101
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 9
+        width: 96
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_102
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 9
+        width: 71
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_103
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 8
+        width: 96
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_104
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 9
+        width: 77
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_105
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 8
+        width: 96
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_106
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 9
+        width: 73
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_107
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 8
+        width: 96
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_108
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 9
+        width: 84
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_109
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 9
+        width: 93
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pluto_110
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 9
+        width: 96
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
