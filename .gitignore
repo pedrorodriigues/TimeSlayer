@@ -1,0 +1,9 @@
+
+*~
+# Byte-compiled / optimized / DLL files
+*.meta
+
+# Distribution / packaging
+Library/
+Temp/
+
