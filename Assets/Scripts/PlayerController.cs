@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour {
 	public bool jump;
 	public bool slide;
 	public bool grounded;
+	public bool attack;
 	public LayerMask whatIsGround;
 	public Transform groundCheck;
 	public float timeTemp;
@@ -57,6 +58,12 @@ public class PlayerController : MonoBehaviour {
 			timeTemp = 0;
 		}
 
+		if (Input.GetButtonDown ("Attack") && grounded) {
+			colisor.position = new Vector3 (colisor.position.x, colisor.position.y - 0.3f, colisor.position.z);
+			attack = true;
+			timeTemp = 0;
+		}
+		
 		grounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, whatIsGround);
 
 		if (slide) {
@@ -67,8 +74,19 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 
+		if (attack) {
+			timeTemp += Time.deltaTime;
+			if (timeTemp >= slideTemp) {
+				colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
+				attack = false;
+			}
+		}
+
+
+
 		anime.SetBool ("jump", !grounded);
 		anime.SetBool ("slide", slide);
+		anime.SetBool ("attack", attack);
 	
 	}
 
