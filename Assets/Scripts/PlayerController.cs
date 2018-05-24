@@ -18,8 +18,27 @@ public class PlayerController : MonoBehaviour {
 	public float timeTemp;
 	public float slideTemp;
 	public Transform colisor;
+	public Collider2D colisorAttack;
 	private Vector2 move = Vector2.zero;
+	public float velocidadeValentina;
+	public float maxSpeed = 30f;
 
+	void OnTriggerEnter2D(Collider2D other)
+    {
+        // se detectar colisão com o hero detrói a moeda
+         if (other.gameObject.CompareTag("Enemy"))
+        {
+			//Destroy(gameObject);
+			Application.LoadLevel(Application.loadedLevel);
+        }
+		Debug.Log(colisorAttack.enabled);
+        if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){
+			Debug.Log("MATOU");
+			//Destroy(gameObject);
+		}
+
+
+    }
 	// Use this for initialization
 	void Start () {
 		
@@ -31,14 +50,12 @@ public class PlayerController : MonoBehaviour {
 
 		move.x = Input.GetAxis ("Horizontal");
 
-		if (move.x > 0) {
+		if (move.x > 0 && playerRigidbody.velocity.x < maxSpeed ){
 			playerSprite.flipX = false;
-			//Debug.Log("move" + move.x * 20f);
-
-			playerRigidbody.AddForce (new Vector2 (move.x * 20f, 0));
-		} else if (move.x < 0){
+			playerRigidbody.AddForce (new Vector2 (move.x * velocidadeValentina, 0));
+		} else if (move.x < 0 && playerRigidbody.velocity.x < maxSpeed){
 			playerSprite.flipX = true;
-			playerRigidbody.AddForce (new Vector2 (move.x * 20f, 0));
+			playerRigidbody.AddForce (new Vector2 (move.x * velocidadeValentina, 0));
 		}
 
 
@@ -59,9 +76,11 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		if (Input.GetButtonDown ("Attack") && grounded) {
+			colisorAttack.enabled = true;
 			colisor.position = new Vector3 (colisor.position.x, colisor.position.y - 0.3f, colisor.position.z);
 			attack = true;
 			timeTemp = 0;
+			
 		}
 		
 		grounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, whatIsGround);
@@ -71,6 +90,7 @@ public class PlayerController : MonoBehaviour {
 			if (timeTemp >= slideTemp) {
 				colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
 				slide = false;
+
 			}
 		}
 
@@ -79,6 +99,7 @@ public class PlayerController : MonoBehaviour {
 			if (timeTemp >= slideTemp) {
 				colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
 				attack = false;
+				colisorAttack.enabled = false;
 			}
 		}
 
