@@ -29,12 +29,14 @@ public class PlayerController : MonoBehaviour {
          if (other.gameObject.CompareTag("Enemy"))
         {
 			//Destroy(gameObject);
-			Application.LoadLevel(Application.loadedLevel);
+			//Application.LoadLevel(Application.loadedLevel);
         }
+
 		Debug.Log(colisorAttack.enabled);
+
         if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){
 			Debug.Log("MATOU");
-			//Destroy(gameObject);
+			Destroy(other);
 		}
 
 
@@ -76,9 +78,9 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		if (Input.GetButtonDown ("Attack") && grounded) {
-			colisorAttack.enabled = true;
 			colisor.position = new Vector3 (colisor.position.x, colisor.position.y - 0.3f, colisor.position.z);
 			attack = true;
+			colisorAttack.enabled = true;
 			timeTemp = 0;
 			
 		}
