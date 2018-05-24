@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4742942006353594}
   - component: {fileID: 95338238878672286}
   - component: {fileID: 212884230545764630}
-  - component: {fileID: 61650351927968322}
   - component: {fileID: 50068182590752530}
   - component: {fileID: 114032190073605780}
+  - component: {fileID: 61943991393379548}
   m_Layer: 0
   m_Name: Mob1
   m_TagString: Enemy
@@ -46,7 +46,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4498954720955112
 Transform:
   m_ObjectHideFlags: 1
@@ -67,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1629920378572394}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0.38603425, z: 0.0013532639}
+  m_LocalPosition: {x: 3, y: -0.82, z: 0.0013532639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4498954720955112}
@@ -106,7 +106,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006660342, y: -0.00089874864}
+  m_Offset: {x: -0.0035049915, y: -0.00089874864}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -117,21 +117,21 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.33289075, y: 0.45847183}
+  m_Size: {x: 0.45894098, y: 0.45847183}
   m_EdgeRadius: 0
---- !u!61 &61650351927968322
+--- !u!61 &61943991393379548
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1629920378572394}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.005248368, y: 0}
+  m_Offset: {x: -0.0035049915, y: -0.00089874864}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -142,7 +142,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.35552967, y: 0.42}
+  m_Size: {x: 0.45894098, y: 0.45847183}
   m_EdgeRadius: 0
 --- !u!95 &95338238878672286
 Animator:

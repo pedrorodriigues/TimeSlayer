@@ -25,20 +25,21 @@ public class PlayerController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
     {
-        // se detectar colisão com o hero detrói a moeda
-         if (other.gameObject.CompareTag("Enemy"))
-        {
-			//Destroy(gameObject);
-			//Application.LoadLevel(Application.loadedLevel);
-        }
+		if (other.gameObject != null){
+			// se detectar colisão com o hero detrói a moeda
+			if(colisorAttack.enabled == false && other.gameObject.CompareTag("Enemy")){
+				Application.LoadLevel(Application.loadedLevel);
+			}
 
-		Debug.Log(colisorAttack.enabled);
+			if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){
+				Debug.Log("MATOU");
+				other.gameObject.GetComponent<SpriteRenderer>().enabled= false;
+				other.gameObject.GetComponent<BoxCollider2D>().enabled= false;
 
-        if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){
-			Debug.Log("MATOU");
-			Destroy(other);
+				//other.GetComponentInParent(typeof(SpriteRenderer)).enabled = false;
+				//Destroy(other.gameObject);
+			}
 		}
-
 
     }
 	// Use this for initialization
@@ -49,7 +50,7 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-
+		
 		move.x = Input.GetAxis ("Horizontal");
 
 		if (move.x > 0 && playerRigidbody.velocity.x < maxSpeed ){
@@ -65,20 +66,20 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetButtonDown("Jump") && grounded == true) {
 			playerRigidbody.AddForce (new Vector2 (0, forceJump));
 			if (slide) {
-				colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
+				//colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
 				slide = false;
 			}
 			slide = false;
 		}
 
 		if (Input.GetButtonDown ("Slide") && grounded) {
-			colisor.position = new Vector3 (colisor.position.x, colisor.position.y - 0.3f, colisor.position.z);
+			//colisor.position = new Vector3 (colisor.position.x, colisor.position.y - 0.3f, colisor.position.z);
 			slide = true;
 			timeTemp = 0;
 		}
 
 		if (Input.GetButtonDown ("Attack") && grounded) {
-			colisor.position = new Vector3 (colisor.position.x, colisor.position.y - 0.3f, colisor.position.z);
+			//colisor.position = new Vector3 (colisor.position.x, colisor.position.y - 0.3f, colisor.position.z);
 			attack = true;
 			colisorAttack.enabled = true;
 			timeTemp = 0;
@@ -90,7 +91,7 @@ public class PlayerController : MonoBehaviour {
 		if (slide) {
 			timeTemp += Time.deltaTime;
 			if (timeTemp >= slideTemp) {
-				colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
+				//colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
 				slide = false;
 
 			}
@@ -99,7 +100,7 @@ public class PlayerController : MonoBehaviour {
 		if (attack) {
 			timeTemp += Time.deltaTime;
 			if (timeTemp >= slideTemp) {
-				colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
+				//colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
 				attack = false;
 				colisorAttack.enabled = false;
 			}
