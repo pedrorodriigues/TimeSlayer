@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour {
 
 			if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){
 				Debug.Log("MATOU");
+				other.gameObject.GetComponent<Animator>().SetBool("run",false);
+				other.gameObject.GetComponent<Animator>().SetBool("death",true);
 				other.gameObject.GetComponent<SpriteRenderer>().enabled= false;
 				other.gameObject.GetComponent<BoxCollider2D>().enabled= false;
 
@@ -106,7 +108,7 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 
-
+		
 
 		anime.SetBool ("jump", !grounded);
 		anime.SetBool ("slide", slide);
