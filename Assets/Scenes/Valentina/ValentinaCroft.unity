@@ -892,8 +892,8 @@ MonoBehaviour:
   slideTemp: 0.9
   colisor: {fileID: 419190090}
   colisorAttack: {fileID: 74172302}
-  velocidadeValentina: 19
-  maxSpeed: 20
+  velocidadeValentina: 10
+  maxSpeed: 15
 --- !u!1 &473139349
 GameObject:
   m_ObjectHideFlags: 0

@@ -147,8 +147,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyRenderer: {fileID: 212020318149546586}
-  run: 0
-  death: 0
   movingSpeed: 1
   colisor: {fileID: 4494037360271942}
   boundCheck: {fileID: 4494037360271942}
@@ -156,7 +154,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   bounded: 0
-  anime1: {fileID: 95467364888859466}
 --- !u!212 &212020318149546586
 SpriteRenderer:
   m_ObjectHideFlags: 1

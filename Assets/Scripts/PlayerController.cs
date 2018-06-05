@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
 	public Transform groundCheck;
 	public float timeTemp;
 	public float slideTemp;
+	private float zero;
 	public Transform colisor;
 	public Collider2D colisorAttack;
 	private Vector2 move = Vector2.zero;
@@ -37,11 +38,6 @@ public class PlayerController : MonoBehaviour {
 				other.gameObject.GetComponent<Animator>().SetBool("run",false);
 				other.gameObject.GetComponent<Animator>().SetBool("death",true);
 				Destroy(other.gameObject,(float)0.8);
-				//other.gameObject.GetComponent<SpriteRenderer>().enabled= false;
-				//other.gameObject.GetComponent<BoxCollider2D>().enabled= false;
-
-				//other.GetComponentInParent(typeof(SpriteRenderer)).enabled = false;
-				//Destroy(other.gameObject);
 			}
 		}
 
