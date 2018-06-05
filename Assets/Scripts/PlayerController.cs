@@ -36,8 +36,9 @@ public class PlayerController : MonoBehaviour {
 				Debug.Log("MATOU");
 				other.gameObject.GetComponent<Animator>().SetBool("run",false);
 				other.gameObject.GetComponent<Animator>().SetBool("death",true);
-				other.gameObject.GetComponent<SpriteRenderer>().enabled= false;
-				other.gameObject.GetComponent<BoxCollider2D>().enabled= false;
+				Destroy(other.gameObject,(float)0.8);
+				//other.gameObject.GetComponent<SpriteRenderer>().enabled= false;
+				//other.gameObject.GetComponent<BoxCollider2D>().enabled= false;
 
 				//other.GetComponentInParent(typeof(SpriteRenderer)).enabled = false;
 				//Destroy(other.gameObject);

@@ -52,8 +52,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1127824905985954}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.024, y: -0.634, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.3, y: 1.42, z: -9.998647}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4494037360271942}
@@ -147,6 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyRenderer: {fileID: 212020318149546586}
+  run: 0
+  death: 0
   movingSpeed: 1
   colisor: {fileID: 4494037360271942}
   boundCheck: {fileID: 4494037360271942}
@@ -154,6 +156,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   bounded: 0
+  anime1: {fileID: 95467364888859466}
 --- !u!212 &212020318149546586
 SpriteRenderer:
   m_ObjectHideFlags: 1

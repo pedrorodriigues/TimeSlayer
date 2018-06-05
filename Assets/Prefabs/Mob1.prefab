@@ -67,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1629920378572394}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: -0.82, z: 0.0013532639}
+  m_LocalPosition: {x: 3.004, y: -0.818, z: 0.0013532639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4498954720955112}
@@ -131,10 +131,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0035049915, y: -0.00089874864}
+  m_Offset: {x: -0.0035049915, y: 0.24564916}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.33, y: 0.48}
     newSize: {x: 0.33, y: 0.48}
     adaptiveTilingThreshold: 0.5
@@ -142,7 +142,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.45894098, y: 0.45847183}
+  m_Size: {x: 0.45894098, y: 0.4970461}
   m_EdgeRadius: 0
 --- !u!95 &95338238878672286
 Animator:
@@ -173,6 +173,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyRenderer: {fileID: 212884230545764630}
+  run: 1
+  death: 0
   movingSpeed: 1
   colisor: {fileID: 4498954720955112}
   boundCheck: {fileID: 4498954720955112}
@@ -180,6 +182,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   bounded: 0
+  anime1: {fileID: 95338238878672286}
 --- !u!212 &212884230545764630
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -6,7 +6,6 @@ public class Enemy : MonoBehaviour {
 	// Use this for initialization
 	private Vector3 initialPosition;
 	public SpriteRenderer enemyRenderer;
-
 	private int direction;
 	public float movingSpeed = 0;
 	public Transform colisor;
@@ -37,7 +36,6 @@ public class Enemy : MonoBehaviour {
         {
             case -1:
 				// Moving Left
-			        
 					GetComponent<Rigidbody2D>().velocity = new Vector2(-movingSpeed, GetComponent<Rigidbody2D>().velocity.y);
 				    enemyRenderer.flipX = false;
 
@@ -47,7 +45,6 @@ public class Enemy : MonoBehaviour {
                 break;
             case 1:
                 //Moving Right
-			
                     GetComponent<Rigidbody2D>().velocity = new Vector2( movingSpeed, GetComponent<Rigidbody2D>().velocity.y);
 				    enemyRenderer.flipX = true;                				
 			    if (bounded){
@@ -56,6 +53,7 @@ public class Enemy : MonoBehaviour {
                 break;
 
         }
+
 
 
     }
