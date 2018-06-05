@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour {
 	public bool jump;
 	public bool slide;
 	public bool grounded;
+	public bool running;
 	public bool attack;
 	public LayerMask whatIsGround;
 	public Transform groundCheck;
@@ -55,12 +56,16 @@ public class PlayerController : MonoBehaviour {
 		
 		move.x = Input.GetAxis ("Horizontal");
 
-		if (move.x > 0 && playerRigidbody.velocity.x < maxSpeed ){
+		if (move.x > 0 && playerRigidbody.velocity.x < maxSpeed) {
+			running = true;
 			playerSprite.flipX = false;
 			playerRigidbody.AddForce (new Vector2 (move.x * velocidadeValentina, 0));
-		} else if (move.x < 0 && playerRigidbody.velocity.x < maxSpeed){
+		} else if (move.x < 0 && playerRigidbody.velocity.x < maxSpeed) {
+			running = true;
 			playerSprite.flipX = true;
 			playerRigidbody.AddForce (new Vector2 (move.x * velocidadeValentina, 0));
+		} else {
+			running = false;
 		}
 
 
@@ -109,7 +114,7 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		
-
+		anime.SetBool ("running", running);
 		anime.SetBool ("jump", !grounded);
 		anime.SetBool ("slide", slide);
 		anime.SetBool ("attack", attack);
