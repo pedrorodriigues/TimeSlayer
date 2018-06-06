@@ -1,0 +1,700 @@
+fileFormatVersion: 2
+guid: 620fa1ec0143f4850a6fa36eefe9c37d
+timeCreated: 1528299031
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cyberpunckscenarios_0
+    21300002: cyberpunckscenarios_1
+    21300004: cyberpunckscenarios_2
+    21300006: cyberpunckscenarios_3
+    21300008: cyberpunckscenarios_4
+    21300010: cyberpunckscenarios_5
+    21300012: cyberpunckscenarios_6
+    21300014: cyberpunckscenarios_7
+    21300016: cyberpunckscenarios_8
+    21300018: cyberpunckscenarios_9
+    21300020: cyberpunckscenarios_10
+    21300022: cyberpunckscenarios_11
+    21300024: cyberpunckscenarios_12
+    21300026: cyberpunckscenarios_13
+    21300028: cyberpunckscenarios_14
+    21300030: cyberpunckscenarios_15
+    21300032: cyberpunckscenarios_16
+    21300034: cyberpunckscenarios_17
+    21300036: cyberpunckscenarios_18
+    21300038: cyberpunckscenarios_19
+    21300040: cyberpunckscenarios_20
+    21300042: cyberpunckscenarios_21
+    21300044: cyberpunckscenarios_22
+    21300046: cyberpunckscenarios_23
+    21300048: cyberpunckscenarios_24
+    21300050: cyberpunckscenarios_25
+    21300052: cyberpunckscenarios_26
+    21300054: cyberpunckscenarios_27
+    21300056: cyberpunckscenarios_28
+    21300058: cyberpunckscenarios_29
+    21300060: cyberpunckscenarios_30
+    21300062: cyberpunckscenarios_31
+    21300064: cyberpunckscenarios_32
+    21300066: cyberpunckscenarios_33
+    21300068: cyberpunckscenarios_34
+    21300070: cyberpunckscenarios_35
+    21300072: cyberpunckscenarios_36
+    21300074: cyberpunckscenarios_37
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cyberpunckscenarios_0
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1378
+        width: 8
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_1
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1376
+        width: 8
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_2
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1382
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_3
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1366
+        width: 6
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_4
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1076
+        width: 388
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1042
+        width: 417
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_6
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1352
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_7
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1308
+        width: 151
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1108
+        width: 354
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1334
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1336
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1306
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1300
+        width: 160
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_13
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1284
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1260
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_15
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1245
+        width: 127
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_16
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1208
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_17
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1184
+        width: 100
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1108
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 563
+        width: 344
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 988
+        width: 4
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_21
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 563
+        width: 427
+        height: 342
+      alignment: 9
+      pivot: {x: 0.5048387, y: 0.00000025378444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_22
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1052
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_23
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 992
+        width: 9
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_24
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1000
+        width: 68
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1024
+        width: 16
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_26
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 988
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_27
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 988
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 984
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_29
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 968
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_30
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 476
+        height: 478
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_31
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 90
+        width: 384
+        height: 306
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_32
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 423
+        width: 44
+        height: 149
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_33
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 204
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_34
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 152
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_35
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 56
+        width: 20
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_36
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 566
+        width: 414
+        height: 322
+      alignment: 9
+      pivot: {x: 0.50569177, y: 0.03164673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cyberpunckscenarios_37
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 92
+        width: 429
+        height: 332
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
