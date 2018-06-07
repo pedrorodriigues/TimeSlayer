@@ -53,11 +53,15 @@
   <ItemGroup>
      <Compile Include="Assets\CyberPunk\Scripts\Done_BGScroller.cs" />
      <Compile Include="Assets\CyberPunk\Scripts\Perspective2DSortMode.cs" />
+     <Compile Include="Assets\Scripts\Attack.cs" />
      <Compile Include="Assets\Scripts\BGScroller.cs" />
      <Compile Include="Assets\Scripts\CameraBehavior.cs" />
      <Compile Include="Assets\Scripts\DeathTrigger.cs" />
      <Compile Include="Assets\Scripts\docPlatformController.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\NewController.cs" />
+     <Compile Include="Assets\Scripts\NewEnemy.cs" />
+     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="UnityEngine.CoreModule">
  <HintPath>/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
