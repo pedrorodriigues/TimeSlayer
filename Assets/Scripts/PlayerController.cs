@@ -25,10 +25,8 @@ public class PlayerController : MonoBehaviour {
 	public float velocidadeValentina;
 	public float maxSpeed = 30f;
 
-	void OnTriggerEnter2D(Collider2D other)
-    {
+	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject != null){
-			// se detectar colisão com o hero detrói a moeda
 			if(colisorAttack.enabled == false && other.gameObject.CompareTag("Enemy")){
 				Application.LoadLevel(Application.loadedLevel);
 			}
@@ -42,18 +40,15 @@ public class PlayerController : MonoBehaviour {
 		}
 
     }
-	// Use this for initialization
-	void Start () {
+
+	void Start(){
 		
 	}
 		
-	// Update is called once per frame
-	void Update () {
-
-		
+	void Update(){
 		move.x = Input.GetAxis ("Horizontal");
 
-		if (move.x > 0 && playerRigidbody.velocity.x < maxSpeed) {
+		if (move.x > 0 && playerRigidbody.velocity.x < maxSpeed){
 			running = true;
 			playerSprite.flipX = false;
 			playerRigidbody.AddForce (new Vector2 (move.x * velocidadeValentina, 0));
@@ -64,60 +59,50 @@ public class PlayerController : MonoBehaviour {
 		} else {
 			running = false;
 		}
-
-
-
-		if (Input.GetButtonDown("Jump") && grounded == true) {
+			
+		if (Input.GetButtonDown("Jump") && grounded == true){
 			playerRigidbody.AddForce (new Vector2 (0, forceJump));
 			if (slide) {
-				//colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
 				slide = false;
 			}
 			slide = false;
 		}
 
 		if (Input.GetButtonDown ("Slide") && grounded) {
-			//colisor.position = new Vector3 (colisor.position.x, colisor.position.y - 0.3f, colisor.position.z);
 			slide = true;
 			timeTemp = 0;
 		}
 
 		if (Input.GetButtonDown ("Attack") && grounded) {
-			//colisor.position = new Vector3 (colisor.position.x, colisor.position.y - 0.3f, colisor.position.z);
 			attack = true;
 			colisorAttack.enabled = true;
 			timeTemp = 0;
-			
 		}
 		
 		grounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, whatIsGround);
 
-		if (slide) {
+		if(slide){
 			timeTemp += Time.deltaTime;
-			if (timeTemp >= slideTemp) {
-				//colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
+			if (timeTemp >= slideTemp){
 				slide = false;
-
 			}
 		}
 
-		if (attack) {
+		if(attack){
 			timeTemp += Time.deltaTime;
-			if (timeTemp >= slideTemp) {
-				//colisor.position = new Vector3 (colisor.position.x, colisor.position.y + 0.3f, colisor.position.z);
+			if(timeTemp >= slideTemp) {
 				attack = false;
 				colisorAttack.enabled = false;
 			}
 		}
-
 		
 		anime.SetBool ("running", running);
 		anime.SetBool ("jump", !grounded);
 		anime.SetBool ("slide", slide);
 		anime.SetBool ("attack", attack);
-	
 	}
 
-
-
+	void FixedUpdate(){
+			
+	}
 }
