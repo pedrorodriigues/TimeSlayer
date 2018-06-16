@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class DeathTrigger : MonoBehaviour {
 
+    public LevelManager levelManager;
+    public GameObject currentCheckpoint;
+    private PlayerController player;
+
 	// Use this for initialization
 	void Start () {
-		
+		player = FindObjectOfType<PlayerController>();
 	}
 	
 	// Update is called once per frame
@@ -19,7 +23,8 @@ public class DeathTrigger : MonoBehaviour {
         // se colidir com um jogador reseta o jogo. Recarregar a cena. 
         if (other.gameObject.CompareTag("Player"))
         {
-            Application.LoadLevel(Application.loadedLevel);
+            player.transform.position = currentCheckpoint.transform.position;
+            
         }
     }
 }

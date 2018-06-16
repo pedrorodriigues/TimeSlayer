@@ -23,14 +23,15 @@ public class PlayerController : MonoBehaviour {
 	public Collider2D colisorAttack;
 	private Vector2 move = Vector2.zero;
 	public float speed;
+	public LevelManager levelManager;
 
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject != null){
 			if(colisorAttack.enabled == false && other.gameObject.CompareTag("Enemy")){
-				Application.LoadLevel(Application.loadedLevel);
+				levelManager.RespawnPlayer();
+				//Application.LoadLevel(Application.loadedLevel);
 			}
-
 			if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){
 				Debug.Log("MATOU");
 				other.gameObject.GetComponent<Animator>().SetBool("run",false);
@@ -38,11 +39,10 @@ public class PlayerController : MonoBehaviour {
 				Destroy(other.gameObject,(float)0.8);
 			}
 		}
-
     }
 
 	void Start(){
-		
+		levelManager = FindObjectOfType<LevelManager>();
 	}
 		
 	void Update(){
