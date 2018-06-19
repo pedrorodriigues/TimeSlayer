@@ -22,15 +22,16 @@ public class PlayerController : MonoBehaviour {
 	public Transform colisor;
 	public Collider2D colisorAttack;
 	private Vector2 move = Vector2.zero;
-	public float velocidadeValentina;
-	public float maxSpeed = 30f;
+	public float speed;
+	public LevelManager levelManager;
+
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject != null){
 			if(colisorAttack.enabled == false && other.gameObject.CompareTag("Enemy")){
-				Application.LoadLevel(Application.loadedLevel);
+				levelManager.RespawnPlayer();
+				//Application.LoadLevel(Application.loadedLevel);
 			}
-
 			if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){
 				Debug.Log("MATOU");
 				other.gameObject.GetComponent<Animator>().SetBool("run",false);
@@ -38,25 +39,23 @@ public class PlayerController : MonoBehaviour {
 				Destroy(other.gameObject,(float)0.8);
 			}
 		}
-
     }
 
 	void Start(){
-		
+		levelManager = FindObjectOfType<LevelManager>();
 	}
 		
 	void Update(){
-		move.x = Input.GetAxis ("Horizontal");
-
-		if (move.x > 0 && playerRigidbody.velocity.x < maxSpeed){
+		move.x = Input.GetAxis("Horizontal");
+		if (move.x > 0){
 			running = true;
 			playerSprite.flipX = false;
-			playerRigidbody.AddForce (new Vector2 (move.x * velocidadeValentina, 0));
-		} else if (move.x < 0 && playerRigidbody.velocity.x < maxSpeed) {
+			playerRigidbody.velocity = new Vector2(move.x * speed, playerRigidbody.velocity.y);
+		} else if (move.x < 0) {
 			running = true;
 			playerSprite.flipX = true;
-			playerRigidbody.AddForce (new Vector2 (move.x * velocidadeValentina, 0));
-		} else {
+			playerRigidbody.velocity = new Vector2 (move.x * speed, playerRigidbody.velocity.y);
+		} else{
 			running = false;
 		}
 			
