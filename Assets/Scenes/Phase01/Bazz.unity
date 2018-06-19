@@ -1270,6 +1270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   jumpForce: 200
+  colisorAttack: {fileID: 230717831}
 --- !u!58 &542351294
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1555,11 +1556,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 161e4f4e480744518a74185e1ea923af, type: 3}
+  m_audioClip: {fileID: 8300000, guid: aff8c2bb5beac4e4e899bd7215745a10, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.85
+  m_Volume: 0.7
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1641,7 +1642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &658748692
 Transform:
   m_ObjectHideFlags: 0

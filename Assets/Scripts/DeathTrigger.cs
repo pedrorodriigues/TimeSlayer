@@ -21,5 +21,9 @@ public class DeathTrigger : MonoBehaviour {
         {
             Application.LoadLevel(Application.loadedLevel);
         }
+		if (other.gameObject.CompareTag("Bazz"))
+		{
+			Application.LoadLevel(Application.loadedLevel);
+		}
     }
 }

@@ -27,7 +27,6 @@ public class Attack : MonoBehaviour {
 			}
 
 			other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2 (forcaHorizontal, 0), ForceMode2D.Impulse);
-
 			Destroy(other.gameObject, tempoDeDestruicao);
 			forcaHorizontal = forcaHorizontalPadrao;
 		}

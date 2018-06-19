@@ -13,6 +13,7 @@ public class NewController : MonoBehaviour {
 	private Animator anim;
 	private bool onTheFloor = false;
 	private Transform groundCheck;
+	public Collider2D colisorAttack;
 
 	void Start(){
 		rb = gameObject.GetComponent<Rigidbody2D>();
@@ -53,5 +54,21 @@ public class NewController : MonoBehaviour {
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject != null){
+			if(colisorAttack.enabled == false && other.gameObject.CompareTag("Enemy")){
+				Application.LoadLevel(Application.loadedLevel);
+			}
+
+			if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){
+				Debug.Log("MATOU");
+				other.gameObject.GetComponent<Animator>().SetBool("run",false);
+				other.gameObject.GetComponent<Animator>().SetBool("death",true);
+				Destroy(other.gameObject,(float)0.8);
+			}
+		}
+
 	}
 }
