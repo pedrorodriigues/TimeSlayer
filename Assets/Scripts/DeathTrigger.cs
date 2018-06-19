@@ -21,8 +21,9 @@ public class DeathTrigger : MonoBehaviour {
     void OnTriggerEnter2D (Collider2D other)
     {
         // se colidir com um jogador reseta o jogo. Recarregar a cena. 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") | other.gameObject.CompareTag("Bazz"))
         {
+
             player.transform.position = currentCheckpoint.transform.position;
             
         }
