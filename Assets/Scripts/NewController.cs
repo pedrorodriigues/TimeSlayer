@@ -66,7 +66,7 @@ public class NewController : MonoBehaviour {
 				Debug.Log("MATOU");
 				other.gameObject.GetComponent<Animator>().SetBool("run",false);
 				other.gameObject.GetComponent<Animator>().SetBool("death",true);
-				Destroy(other.gameObject,(float)0.8);
+				Destroy(other.gameObject,(float)0.2);
 			}
 		}
 
