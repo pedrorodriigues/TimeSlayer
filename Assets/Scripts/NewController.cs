@@ -14,11 +14,14 @@ public class NewController : MonoBehaviour {
 	private bool onTheFloor = false;
 	private Transform groundCheck;
 	public Collider2D colisorAttack;
+	public LevelManager levelManager;
 
 	void Start(){
 		rb = gameObject.GetComponent<Rigidbody2D>();
 		anim = gameObject.GetComponent<Animator>();
 		groundCheck = gameObject.transform.Find("GroundCheck");
+		levelManager = FindObjectOfType<LevelManager>();
+
 	}
 	
 	void Update(){
@@ -59,7 +62,7 @@ public class NewController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject != null){
 			if(colisorAttack.enabled == false && other.gameObject.CompareTag("Enemy")){
-				Application.LoadLevel(Application.loadedLevel);
+				levelManager.RespawnPlayer();
 			}
 
 			if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour {
 	public int forceJump;
 	public Animator anime;
 	public bool jump;
-	public bool slide;
+	//public bool slide;
 	public bool grounded;
 	public bool running;
 	public bool attack;
@@ -28,21 +28,24 @@ public class PlayerController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject != null){
-			if(colisorAttack.enabled == false && other.gameObject.CompareTag("Enemy")){
-				levelManager.RespawnPlayer();
-				//Application.LoadLevel(Application.loadedLevel);
-			}
-			if(colisorAttack.enabled == true && other.gameObject.CompareTag("Enemy")){
-				Debug.Log("MATOU");
-				other.gameObject.GetComponent<Animator>().SetBool("run",false);
-				other.gameObject.GetComponent<Animator>().SetBool("death",true);
-				Destroy(other.gameObject,(float)0.8);
+			Debug.Log ("GO");
+			if (other.gameObject.CompareTag ("Enemy")) {
+				if (colisorAttack.enabled == true) {
+					Debug.Log ("MATOU");
+					other.gameObject.GetComponent<Animator> ().SetBool ("run", false);
+					other.gameObject.GetComponent<Animator> ().SetBool ("death", true);
+					Destroy (other.gameObject, (float)0.8);
+				} else {
+					Debug.Log ("MORRE PFVR");
+					levelManager.RespawnPlayer ();
+				}
 			}
 		}
     }
 
 	void Start(){
 		levelManager = FindObjectOfType<LevelManager>();
+		colisorAttack.enabled = false;
 	}
 		
 	void Update(){
@@ -61,16 +64,16 @@ public class PlayerController : MonoBehaviour {
 			
 		if (Input.GetButtonDown("Jump") && grounded == true){
 			playerRigidbody.AddForce (new Vector2 (0, forceJump));
-			if (slide) {
+			/*if (slide) {
 				slide = false;
 			}
-			slide = false;
+			slide = false;*/
 		}
 
-		if (Input.GetButtonDown ("Slide") && grounded) {
+		/*if (Input.GetButtonDown ("Slide") && grounded) {
 			slide = true;
 			timeTemp = 0;
-		}
+		}*/
 
 		if (Input.GetButtonDown ("Attack") && grounded) {
 			attack = true;
@@ -80,12 +83,12 @@ public class PlayerController : MonoBehaviour {
 		
 		grounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, whatIsGround);
 
-		if(slide){
+		/*if(slide){
 			timeTemp += Time.deltaTime;
 			if (timeTemp >= slideTemp){
 				slide = false;
 			}
-		}
+		}*/
 
 		if(attack){
 			timeTemp += Time.deltaTime;
@@ -97,7 +100,7 @@ public class PlayerController : MonoBehaviour {
 		
 		anime.SetBool ("running", running);
 		anime.SetBool ("jump", !grounded);
-		anime.SetBool ("slide", slide);
+		//anime.SetBool ("slide", slide);
 		anime.SetBool ("attack", attack);
 	}
 

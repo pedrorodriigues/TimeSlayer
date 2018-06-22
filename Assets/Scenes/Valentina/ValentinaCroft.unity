@@ -1309,7 +1309,6 @@ MonoBehaviour:
   forceJump: 200
   anime: {fileID: 470458510}
   jump: 0
-  slide: 0
   grounded: 0
   running: 0
   attack: 0
@@ -1322,7 +1321,7 @@ MonoBehaviour:
   colisor: {fileID: 419190090}
   colisorAttack: {fileID: 74172302}
   speed: 3
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 1836436658}
 --- !u!1 &473139349
 GameObject:
   m_ObjectHideFlags: 0
@@ -3004,6 +3003,10 @@ Prefab:
     - target: {fileID: 4742942006353594, guid: ef2f90f6cd5f8470a8b7f2bd2f21f2a3, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734456519808156, guid: ef2f90f6cd5f8470a8b7f2bd2f21f2a3, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef2f90f6cd5f8470a8b7f2bd2f21f2a3, type: 2}

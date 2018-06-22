@@ -51,12 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ExternAssets\CyberPunk\Scripts\Done_BGScroller.cs" />
-     <Compile Include="Assets\ExternAssets\CyberPunk\Scripts\Perspective2DSortMode.cs" />
      <Compile Include="Assets\Scripts\Attack.cs" />
      <Compile Include="Assets\Scripts\BGScroller.cs" />
      <Compile Include="Assets\Scripts\CameraBehavior.cs" />
-     <Compile Include="Assets\Scripts\ChangeMusicVolume.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
      <Compile Include="Assets\Scripts\DeathTrigger.cs" />
      <Compile Include="Assets\Scripts\docPlatformController.cs" />
@@ -65,7 +62,6 @@
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\NewController.cs" />
      <Compile Include="Assets\Scripts\NewEnemy.cs" />
-     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
@@ -219,23 +215,23 @@
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.AR">
- <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityAR/RuntimeEditor/UnityEngine.AR.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.GoogleAudioSpatializer">
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Advertisements">
- <HintPath>/home/fred/.config/unity3d/cache/packages/packages.unity.com/com.unity.ads@0.0.16/UnityEngine.Advertisements.dll</HintPath>
+ <HintPath>/home/andre/.config/unity3d/cache/packages/packages.unity.com/com.unity.ads@0.0.16/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>/home/fred/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@0.0.17/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>/home/andre/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@0.0.17/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>/home/fred/.config/unity3d/cache/packages/packages.unity.com/com.unity.purchasing@0.0.18/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>/home/andre/.config/unity3d/cache/packages/packages.unity.com/com.unity.purchasing@0.0.18/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
