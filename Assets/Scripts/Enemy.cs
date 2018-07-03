@@ -26,6 +26,9 @@ public class Enemy : MonoBehaviour {
         {
 			direction = direction * -1;
         }
+		if(other.gameObject.CompareTag("Player")){
+			movingSpeed = 0;
+		}
     }
 
     // Update is called once per frame
@@ -40,7 +43,7 @@ public class Enemy : MonoBehaviour {
 				    enemyRenderer.flipX = false;
 
 				if (bounded) {
-					//direction = 1;                  
+					direction = 1;                  
 				}                            
                 break;
             case 1:
@@ -48,7 +51,7 @@ public class Enemy : MonoBehaviour {
                     GetComponent<Rigidbody2D>().velocity = new Vector2( movingSpeed, GetComponent<Rigidbody2D>().velocity.y);
 				    enemyRenderer.flipX = true;                				
 			    if (bounded){
-                    //direction = -1;                
+                    direction = -1;                
                 }
                 break;
 
