@@ -1,0 +1,508 @@
+fileFormatVersion: 2
+guid: 3d23841c1beb2f24f8e859362a9e7f5c
+timeCreated: 1530652191
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES_demonscrest_aerial (1)_0
+    21300002: SNES_demonscrest_aerial (1)_1
+    21300004: SNES_demonscrest_aerial (1)_2
+    21300006: SNES_demonscrest_aerial (1)_3
+    21300008: SNES_demonscrest_aerial (1)_4
+    21300010: SNES_demonscrest_aerial (1)_5
+    21300012: SNES_demonscrest_aerial (1)_6
+    21300014: SNES_demonscrest_aerial (1)_7
+    21300016: SNES_demonscrest_aerial (1)_8
+    21300018: SNES_demonscrest_aerial (1)_9
+    21300020: SNES_demonscrest_aerial (1)_10
+    21300022: SNES_demonscrest_aerial (1)_11
+    21300024: SNES_demonscrest_aerial (1)_12
+    21300026: SNES_demonscrest_aerial (1)_13
+    21300028: SNES_demonscrest_aerial (1)_14
+    21300030: SNES_demonscrest_aerial (1)_15
+    21300032: SNES_demonscrest_aerial (1)_16
+    21300034: SNES_demonscrest_aerial (1)_17
+    21300036: SNES_demonscrest_aerial (1)_18
+    21300038: SNES_demonscrest_aerial (1)_19
+    21300040: SNES_demonscrest_aerial (1)_20
+    21300042: SNES_demonscrest_aerial (1)_21
+    21300044: SNES_demonscrest_aerial (1)_22
+    21300046: SNES_demonscrest_aerial (1)_23
+    21300048: SNES_demonscrest_aerial (1)_24
+    21300050: SNES_demonscrest_aerial (1)_25
+    21300052: SNES_demonscrest_aerial (1)_26
+    21300054: SNES_demonscrest_aerial (1)_27
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 235
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 236
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 235
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 239
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 230
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 255
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 191
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_7
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 191
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 190
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_9
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 191
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 191
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_11
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 192
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 143
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 139
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 139
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 136
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 133
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_17
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 137
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 79
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 82
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_20
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 79
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 82
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_22
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 80
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 26
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 28
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_26
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 13
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES_demonscrest_aerial (1)_27
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 16
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
