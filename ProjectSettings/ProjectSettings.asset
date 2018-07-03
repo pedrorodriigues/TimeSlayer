@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 13
-  productGUID: ca6d42c0a319e410292a3c9ec8abb4d9
+  productGUID: 18baff56d3eeb46b4ab945e1678bbb3c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Time Slayer
+  productName: TimeSlayer
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -420,7 +420,7 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
-  ps4Passcode: PpGAOgw2Ppdj1ti0nljv5Rbiz6rmsk7I
+  ps4Passcode: uag7lXSMVY74nFGz2aHe646BXTpoA3L3
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -466,7 +466,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: ZMQw0MyPAb8BSoAFZrBcGmLDqCzhu5xU
+  psp2PackagePassword: ezANXcj28q6w4Lt6t8iyDn7kGwZQxsRZ
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -521,14 +521,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Time Slayer
+  metroPackageName: TimeSlayer
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Time Slayer
+  metroApplicationDescription: TimeSlayer
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -602,9 +602,9 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: baa01d7d-7014-490a-812a-8334ca1e3035
-  projectName: Time Slayer (1)
-  organizationId: paperbeel
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
